@@ -11,11 +11,6 @@ const routes = [
     component: Home,
   },
   {
-    path: '/tabla',
-    name: 'Tabla',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Tabla.vue'),
-  },
-  {
     path: '/transferencias',
     name: 'Transferencias',
     component: () => import('../views/Transferencias.vue'),

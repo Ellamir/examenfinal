@@ -4,6 +4,7 @@
 
         <h3>Nueva Transferencia</h3>
 
+        <p>Estamos trabajando para usted :-) </p>
         <!-- Cuenta de origen : seleccionar con radial.
           
           Cuenta de destino: traer opciones de bancos desde bancos.json al selector

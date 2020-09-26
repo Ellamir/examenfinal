@@ -16,20 +16,13 @@
 <script>
 import TransCartola from '@/components/TransCartola.vue'
 import TransNueva from '@/components/TransNueva.vue'
-import { mapGetters, mapActions} from "vuex"
+import { mapGetters} from "vuex"
 export default {
   name: "Transferencias",
   components: {
     TransNueva, TransCartola
   },
-  mounted() {
-    this.getAPI('cartola_transf.json', "transferencias");
-    
-  },
-  methods: {
-     
-    ...mapActions(["getAPI"]),
-  },
+  
   computed: {
   ...mapGetters(["GetTransferencias"]),
   },

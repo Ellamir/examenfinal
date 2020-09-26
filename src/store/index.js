@@ -92,7 +92,7 @@ export default new Vuex.Store({
     
     Spinner1: (state) => {
       let total = Number(state.data.cupos[0].disponible)
-      let porciento = Math.floor((Number(state.data.cupos[0].utilizado) * 100) / total)
+      let porciento = Math.ceil((Number(state.data.cupos[0].utilizado) * 100) / total)
       return porciento || 0
     },
     Spinner2: (state) => {
